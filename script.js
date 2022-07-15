@@ -117,6 +117,9 @@ class Juego {
   }
 
   elegirColor(ev){
+
+    console.log(ev)
+
     const nombreColor = ev.target.dataset.color
     const numeroColor = this.transformarColorANumero(nombreColor)
     this.iluminarColor(nombreColor)
